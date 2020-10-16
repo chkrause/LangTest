@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://localhost:3000/",
+    "testFiles": "{**/*.{feature,features},**/*_spec.js}",
+    "experimentalComponentTesting": true,
+    "componentFolder": "src"
+  
+}

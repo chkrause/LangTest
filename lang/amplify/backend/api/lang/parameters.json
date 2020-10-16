@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "lang",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authlang5063de3e",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
